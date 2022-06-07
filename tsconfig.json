@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "baseUrl": "./src/",
+    "declaration": false, // see package.json.scripts.build
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "NodeNext",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src/",
+    "removeComments": false, // see package.json.scripts.build
+    "strict": true,
+    "target": "ESNext",
+    "noErrorTruncation": true,
+    "outDir": "./dist/",
+    "module": "ESNext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["./dist/**/*.ts", "./dist/**/*.js"]
+}
